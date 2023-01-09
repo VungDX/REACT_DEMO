@@ -1,0 +1,465 @@
+.pdf-page {
+    font-family: "DejaVu Sans", "Arial", sans-serif;
+}
+
+.page-template>* {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    font-size: 90%;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-weight: 400;
+}
+
+.page-template .header {
+    top: 20px;
+    border-bottom: 0px solid #000;
+}
+
+.page-template .footer {
+    bottom: 20px;
+    border-top: 0px solid #000;
+}
+
+.page-template .watermark {
+    font-weight: bold;
+    font-size: 400%;
+    text-align: right;
+    margin-top: 70%;
+    color: #aaaaaa;
+    opacity: 0.4;
+}
+
+
+.my-light {
+    font-family: 'Montserrat-Light', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.my-regular {
+    font-family: 'Montserrat-Regular', sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.my-semibold {
+    font-family: 'Montserrat-SemiBold', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+.my-medium {
+    font-family: 'Montserrat-Medium', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+#customers {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: #2a201b;
+    font-size: 12px !important;
+    font-family: 'Montserrat', 'Montserrat-Light', 'DejaVu Sans', sans-serif !important;
+    /*font-weight: 400;*/
+    font-style: normal;
+    font-variant: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+}
+
+/*html {
+margin: 0;
+padding: 0;
+line-height: 1.5;
+color: #2a201b;
+font-size: 14px;
+font-family: 'Montserrat','Montserrat-Regular', sans-serif;
+font-weight: 500;
+width: 100%; }*/
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    display: block;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3 {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+a {
+    color: #2a201b;
+}
+
+#customers {
+    background-color: #fff;
+    width: 100%;
+}
+
+.wrapper {
+    padding: 25px 0;
+    /*background: url('http://localhost:9000/img/girosole-bg.png') no-repeat;*/
+    /*background: url('http://37.139.21.246:9000/img/girosole-bg.png') no-repeat;*/
+    /*background-position: 100% 100%;*/
+    /*background-size:374px 374px;*/
+
+    /*background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(bg.png) repeat 0 0, url(http://localhost:9000/img/girosole-bg.png) no-repeat 100% 100%;*/
+
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(bg.png) repeat 0 0, url(http://37.139.21.246:9000/img/girosole-bg.png) no-repeat 100% 100%;
+
+    /*background: -moz-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.7) 100%), url(http://localhost:9000/img/girosole-bg.png) no-repeat 100% 100%;
+*/
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url(http://37.139.21.246:9000/img/girosole-bg.png) no-repeat 100% 100%;
+
+
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.7)), color-stop(100%,rgba(255,255,255,0.7))), url(http://localhost:9000/img/girosole-bg.png) no-repeat 100% 100%;*/
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.7)), color-stop(100%, rgba(255, 255, 255, 0.7))), url(http://37.139.21.246:9000/img/girosole-bg.png) no-repeat 100% 100%;
+
+    /*background: -webkit-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(http://localhost:9000/img/girosole-bg.png) no-repeat 100% 100%;*/
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url(http://37.139.21.246:9000/img/girosole-bg.png) no-repeat 100% 100%;
+
+    /*background: -o-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(http://localhost:9000/img/girosole-bg.png) no-repeat 100% 100%;*/
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url(http://37.139.21.246:9000/img/girosole-bg.png) no-repeat 100% 100%;
+
+    /*background: -ms-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(http://localhost:9000/img/girosole-bg.png) no-repeat 100% 100%;*/
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url(http://37.139.21.246:9000/img/girosole-bg.png) no-repeat 100% 100%;
+
+    /*background: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(http://localhost:9000/img/girosole-bg.png) no-repeat 100% 100%;*/
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url(http://37.139.21.246:9000/img/girosole-bg.png) no-repeat 100% 100%;
+
+    /*height:300px; width:300px; border: 1px solid black;*/
+    background-size: 350px 350px;
+
+}
+
+.wrapper:before {
+    content: ' ';
+    opacity: 0.1;
+}
+
+.wx-holder {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.bluecolor-text {
+    color: #3c6586;
+}
+
+.bold-text {
+    font-weight: bold !important;
+}
+
+.italic-font {
+    font-style: italic;
+}
+
+.orborder-right {
+    border-right: 2px solid #fa9d2d;
+}
+
+.style-font {
+    font-family: 'Montserrat', 'Montserrat-Regular', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.medium-font {
+    padding-top: 10px;
+}
+
+.medium-font p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.wx-clearafter:after {
+    clear: both;
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+}
+
+.wx-left {
+    float: left;
+    width: 150px;
+}
+
+.wx-right {
+    float: left;
+    width: calc(100% - 150px);
+}
+
+.wx-leftmain {
+    height: 480px;
+    float: left;
+    width: 200px;
+}
+
+.wx-rightmain {
+    float: left;
+    width: calc(100% - 205px);
+}
+
+.wx-img {
+    padding-right: 5px;
+}
+
+.wx-img img {
+    max-width: 100%;
+}
+
+.wx-border {
+    border-right: 1px solid #ddd;
+}
+
+.wxborder-header {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    display: table;
+    position: relative;
+    padding: 0 25px 0 55px;
+}
+
+.wxborder-header:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    border-bottom: 2px solid #fa9d2d;
+    width: 300px;
+
+}
+
+.contentmain {
+    padding: 0 20px;
+}
+
+.first-block {
+    padding: 15px 0 70px;
+}
+
+.large-font {
+    font-size: 18px;
+}
+
+.medium-font {
+    font-size: 16px;
+}
+
+.content {
+    padding: 15px 0;
+}
+
+.contentmain p+p {
+    padding-top: 15px;
+}
+
+.contentmain ul {
+    padding: 10px 40px 25px;
+}
+
+.contentmain ul li {
+    list-style-position: inside;
+    padding-bottom: 10px;
+}
+
+.p-class {
+    padding: 15px 0;
+}
+
+.p-top {
+    padding-top: 15px;
+}
+
+.wx-innercontent {
+    padding: 0px 25px;
+}
+
+.wx-innercontent>div {
+    padding: 15px 0;
+}
+
+.wx-innercontent>div h3 {
+    padding-bottom: 10px;
+    color: #333;
+    font-size: 20px;
+}
+
+.orange-ul {
+    padding: 10px 0 0;
+}
+
+.orange-ul li {
+    color: #fa9d2d;
+    padding-bottom: 10px;
+}
+
+.orange-ul li p {
+    color: #2a201b;
+}
+
+/*.inline-bullet{
+display: inline-block;
+margin-left: 10px;
+}*/
+/*ul{
+list-style: fa-circle;
+}*/
+/*.bullet-size{
+font-size: 5px;
+}
+ul.lower_greek {
+
+list-style-type: fa-circle;
+}*/
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+li:before {
+    content: "\f111";
+    /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    padding-right: 5px;
+    font-size: 5px;
+}
+
+.common-font-size {
+    font-size: 15px !important;
+}
+
+
+
+
+/*  */
+
+.pdf-page {
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .3);
+    background-color: #fff;
+    color: #333;
+    position: relative;
+}
+
+.pdf-header {
+    position: absolute;
+    top: .5in;
+    height: .6in;
+    left: .5in;
+    right: .5in;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.invoice-number {
+    padding-top: .17in;
+    float: right;
+}
+
+.pdf-footer {
+    position: absolute;
+    bottom: .5in;
+    height: .6in;
+    left: .5in;
+    right: .5in;
+    padding-top: 10px;
+    border-top: 1px solid #e5e5e5;
+    text-align: left;
+    color: #787878;
+    font-size: 12px;
+}
+
+.pdf-body {
+    position: absolute;
+    top: 3.7in;
+    bottom: 1.2in;
+    left: .5in;
+    right: .5in;
+}
+
+.size-a4 {
+    width: 8.3in;
+    height: 11.7in;
+}
+
+.size-letter {
+    width: 8.5in;
+    height: 11in;
+}
+
+.size-executive {
+    width: 7.25in;
+    height: 10.5in;
+}
+
+.company-logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #3aabf0;
+}
+
+.for {
+    position: absolute;
+    top: 1.5in;
+    left: .5in;
+    width: 2.5in;
+}
+
+.from {
+    position: absolute;
+    top: 1.5in;
+    right: .5in;
+    width: 2.5in;
+}
+
+.from p,
+.for p {
+    color: #787878;
+}
+
+.signature {
+    padding-top: .5in;
+}

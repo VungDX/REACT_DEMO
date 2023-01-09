@@ -1,0 +1,141 @@
+body {
+    font-size: 0.75rem;
+    line-height: 1.6em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #142132;
+}
+
+h1 {
+    font-size: 2.3rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 100;
+    color: #142132;
+}
+
+a {
+    color: #142132;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4537DE;
+    text-decoration: none;
+}
+
+.header {
+    height: 16rem;
+    vertical-align: top;
+}
+
+.header img {
+    padding: 40px 0px;
+    height: 3rem;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info {
+    width: calc(33% - 2rem);
+    border-top: 1px solid #717885;
+    margin-right: 2rem;
+    padding-top: .25rem;
+}
+
+.invoice-box {
+    width: 67%;
+}
+
+.invoice-box table {
+    width: 100%;
+    line-height: inherit;
+    text-align: right;
+    padding-bottom: 40px;
+}
+
+.invoice-box table tr td:nth-child(1) {
+    text-align: left;
+}
+
+.invoice-box table tr.heading td {
+    border-bottom: 1px solid #717885;
+    border-top: 1px solid #717885;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .65rem;
+    height: 1.8rem;
+}
+
+.invoice-box table tr.item td {
+    border-bottom: 1px dotted #717885;
+    padding: 0.25rem 0 1rem 0;
+}
+
+.invoice-box table tr:nth-last-child(-n+2) td {
+    border-bottom: 0px;
+    padding: 0.25rem 0 1rem 0;
+}
+
+.invoice-box table tr.total td {
+    border-top: 1px solid #717885;
+    padding: 0.75rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.notes {
+    width: 50%;
+}
+
+.company-info {
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.company-info-item {
+    width: calc(33% - 1rem);
+    padding-right: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.label {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .65rem;
+}
+
+.form-border {
+    padding: 10px 0px;
+    border-top: 1px solid #717885;
+    border-bottom: 1px solid #717885;
+    border-left: none;
+    border-right: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.6em;
+}
+
+.form-border:hover {
+    border-bottom: 1px solid #4537DE;
+    border-top: 1px solid #4537DE;
+}
+
+.form-border:focus-visible {
+    padding: 10px;
+}
+
+.signature {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
